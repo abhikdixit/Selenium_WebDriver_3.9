@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<test name="Test1">
+	    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login" />
+		<parameter name="uname" value="Admin" />
+		<parameter name="upass" value="admin123" />
+		<classes>
+<class name="pk_orange_hrm.OrangeHRM_SignOn_Parameters"/>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2">
+	    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login" />
+		<parameter name="uname" value="abhikdixit" />
+		<parameter name="upass" value="test@1234" />
+		<classes>
+<class name="pk_orange_hrm.OrangeHRM_SignOn_Parameters"/>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test3">
+	    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login" />
+		<parameter name="uname" value="vishalcgi" />
+		<parameter name="upass" value="pass@1234" />
+		<classes>
+<class name="pk_orange_hrm.OrangeHRM_SignOn_Parameters"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="pk_orange_hrm.OrangeHRM_MouseHover_Two_Layer">
+        <methods>
+          <include name="Sign_On"/>
+        </methods>
+      </class> <!-- pk_orange_hrm.OrangeHRM_MouseHover_Two_Layer -->
+      <class name="pk_orange_hrm.OrangeHRM_SearchByUserName">
+        <methods>
+          <include name="Sign_On"/>
+        </methods>
+      </class> <!-- pk_orange_hrm.OrangeHRM_SearchByUserName -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

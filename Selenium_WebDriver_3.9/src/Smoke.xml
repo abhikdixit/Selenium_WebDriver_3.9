@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="pk_mercury_tours.BatchExecution_Smoke"/>
+      <class name="pk_mercury_tours.Mouse_Hover_Yatra_Com"/>
+      <class name="pk_mercury_tours.Drag_and_Drop"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

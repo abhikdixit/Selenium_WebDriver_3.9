@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3" parallel="tests" >
+  <test name="Test">
+    <classes>
+      <class name="pk_orange_hrm.SanityTest"/>
+      <class name="pk_orange_hrm.Orange_HRM_Logout_Firefox"/>
+      <class name="pk_orange_hrm.OrangeHRM_MouseHover_Two_Layer"/>
+      <class name="pk_orange_hrm.OrangeHRM_SearchByUserName"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
