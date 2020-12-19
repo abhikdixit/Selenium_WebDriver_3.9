@@ -5,6 +5,7 @@
     <classes>
      	<class name="pk_mercury_tours.Drag_and_Drop"/>
      	<class name="pk_mercury_tours.HDFCBank_Login"/>
+     	<class name="pk_mercury_tours.UploadFile_RobotClass"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
